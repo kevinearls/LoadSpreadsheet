@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c668734-d452-4bf4-bbda-f1a6bb702861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/country.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kearls/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Entry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kearls/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kearls/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728570618116</updated>
-      <workItem from="1728570619128" duration="5895000" />
+      <workItem from="1728570619128" duration="6369000" />
     </task>
     <servers />
   </component>
