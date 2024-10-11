@@ -1,45 +1,43 @@
 package dev.kearls;
 
-import com.opencsv.bean.CsvBindByPosition;
+import com.opencsv.bean.CsvBindByName;
 
-// TODO: Can this be a record?  probably not
 public class Entry {
-    // Number, Continent, Country, State , Location, Region, Hint, Climate, PicsUploaded, Pictures, TBUrl, Notes
-    // NOTE: We can also do  @CsvBindByPosition(position = 1)  see https://www.baeldung.com/opencsv
-    @CsvBindByPosition(position = 0)
+    // Actual names: Number,Continent,Country,State/Province/Territory/etc.,Location,Region,Hint,Climate,Pics Uploaded?,Pictures,TB URL,Notes
+    @CsvBindByName(column = "Number")
     private Integer number;
 
-    @CsvBindByPosition(position = 1)
+    @CsvBindByName(column = "Continent")
     private String continent;
 
-    @CsvBindByPosition(position = 2)
+    @CsvBindByName(column = "Country")
     private String country;
 
-    @CsvBindByPosition(position = 3)
+    @CsvBindByName(column = "State/Province/Territory/etc.")
     private String state;
 
-    @CsvBindByPosition(position = 4)
+    @CsvBindByName(column = "Location")
     private String location;
 
-    @CsvBindByPosition(position = 5)
+    @CsvBindByName(column = "Region")
     private String region;
 
-    @CsvBindByPosition(position = 6)
+    @CsvBindByName(column = "Hint")
     private String hint;
 
-    @CsvBindByPosition(position = 7)
+    @CsvBindByName(column = "Climate")
     private String climate;
 
-    @CsvBindByPosition(position = 8)
+    @CsvBindByName(column = "Pics Uploaded?")
     private Boolean picsUploaded;
 
-    @CsvBindByPosition(position = 9)
+    @CsvBindByName(column = "Pictures")
     private String pictures;
 
-    @CsvBindByPosition(position = 10)
+    @CsvBindByName(column = "TB URL")
     private String tbUrl;
 
-    @CsvBindByPosition(position = 11)
+    @CsvBindByName(column = "Notes")
     private String notes;
 
     public Integer getNumber() {
