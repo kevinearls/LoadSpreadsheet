@@ -22,6 +22,8 @@ public class Loader {
                 .build()
                 .parse();
 
-        beans.forEach(System.out::println);
+        beans.
+                stream().filter(b -> b.getPicsUploaded()).
+                forEach(System.out::println);
     }
 }

@@ -22,14 +22,28 @@ public class Entry {
     @CsvBindByName(column = "Region")
     private String region;
 
-    @CsvBindByName(column = "Hint")
-    private String hint;
+    @CsvBindByName(column = "Up Front Description")
+    private String upFrontDescription;
+
+    @CsvBindByName(column = "Hint # 1")
+    private String hint1;
+
+    @CsvBindByName(column = "Description at the end")
+    private String descriptionAtTheEnd;
+
+    @CsvBindByName(column = "Wikipedia Link")
+    private String wikipediaLink;
+
+    @CsvBindByName(column = "Tourism Link")
+    private String tourismLink;
 
     @CsvBindByName(column = "Climate")
     private String climate;
 
     @CsvBindByName(column = "Pics Uploaded?")
     private Boolean picsUploaded;
+
+    // FIXME I'm not sure anything after here is relevant
 
     @CsvBindByName(column = "Pictures")
     private String pictures;
@@ -88,12 +102,12 @@ public class Entry {
         this.region = region;
     }
 
-    public String getHint() {
-        return hint;
+    public String getUpFrontDescription() {
+        return upFrontDescription;
     }
 
-    public void setHint(String hint) {
-        this.hint = hint;
+    public void setUpFrontDescription(String upFrontDescription) {
+        this.upFrontDescription = upFrontDescription;
     }
 
     public String getClimate() {
@@ -136,21 +150,58 @@ public class Entry {
         this.notes = notes;
     }
 
+    public String getHint1() {
+        return hint1;
+    }
+
+    public String getDescriptionAtTheEnd() {
+        return descriptionAtTheEnd;
+    }
+
+    public String getWikipediaLink() {
+        return wikipediaLink;
+    }
+
+    public String getTourismLink() {
+        return tourismLink;
+    }
+
     @Override
     public String toString() {
         return "Entry{" +
-                "number='" + number + '\'' +
+                "number=" + number +
                 ", continent='" + continent + '\'' +
                 ", country='" + country + '\'' +
                 ", state='" + state + '\'' +
                 ", location='" + location + '\'' +
                 ", region='" + region + '\'' +
-                ", hint='" + hint + '\'' +
+                ", upFrontDescription='" + upFrontDescription + '\'' +
+                ", hint1='" + hint1 + '\'' +
+                ", descriptionAtTheEnd='" + descriptionAtTheEnd + '\'' +
+                ", wikipediaLink='" + wikipediaLink + '\'' +
+                ", tourismLink='" + tourismLink + '\'' +
                 ", climate='" + climate + '\'' +
-                ", picsUploaded='" + picsUploaded + '\'' +
+                ", picsUploaded=" + picsUploaded +
                 ", pictures='" + pictures + '\'' +
                 ", tbUrl='" + tbUrl + '\'' +
                 ", notes='" + notes + '\'' +
                 '}';
     }
+//    @Override
+//    public String toString() {
+//        return "Entry{" +
+//                "number='" + number + '\'' +
+//                ", continent='" + continent + '\'' +
+//                ", country='" + country + '\'' +
+//                ", state='" + state + '\'' +
+//                ", location='" + location + '\'' +
+//                ", region='" + region + '\'' +
+//                ", hint='" + upFrontDescription + '\'' +
+//                ", climate='" + climate + '\'' +
+//                ", picsUploaded='" + picsUploaded + '\'' +
+//                ", pictures='" + pictures + '\'' +
+//                ", tbUrl='" + tbUrl + '\'' +
+//                ", notes='" + notes + '\'' +
+//                '}';
+//    }
 }

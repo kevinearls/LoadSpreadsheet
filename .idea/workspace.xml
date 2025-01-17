@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c668734-d452-4bf4-bbda-f1a6bb702861" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kearls/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Entry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kearls/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kearls/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +29,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///Library/Java/JavaVirtualMachines/liberica-jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/NumberFormatException.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2nFZ7bgZDGYRaZyoWWXVa1Hefwg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,9 +44,11 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kevinearls/sources/travle/LoadSpreadsheet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,8 +81,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -89,6 +95,13 @@
       <option name="presentableId" value="Default" />
       <updated>1728570618116</updated>
       <workItem from="1728570619128" duration="6369000" />
+      <workItem from="1728640522261" duration="600000" />
+      <workItem from="1728656155455" duration="597000" />
+      <workItem from="1728660122930" duration="616000" />
+      <workItem from="1729083005777" duration="598000" />
+      <workItem from="1729503809127" duration="498000" />
+      <workItem from="1736431184892" duration="51000" />
+      <workItem from="1737131929149" duration="1209000" />
     </task>
     <servers />
   </component>
