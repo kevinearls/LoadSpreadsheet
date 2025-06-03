@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c668734-d452-4bf4-bbda-f1a6bb702861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kearls/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Entry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kearls/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kearls/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kearls/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Travle DataBase - Sheet1-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Travle DataBase - Sheet1-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Travle DataBase - Sheet1.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,31 +34,31 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2nFZ7bgZDGYRaZyoWWXVa1Hefwg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kevinearls/sources/travle/LoadSpreadsheet",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/kevinearls/sources/docker/LoadSpreadsheet/src/main/java/dev/kearls/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kevinearls/sources/travle/LoadSpreadsheet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/kevinearls/sources/docker/LoadSpreadsheet/src/main/java/dev/kearls/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.kearls.Main" />
@@ -81,8 +82,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
@@ -101,11 +102,35 @@
       <workItem from="1729083005777" duration="598000" />
       <workItem from="1729503809127" duration="498000" />
       <workItem from="1736431184892" duration="51000" />
-      <workItem from="1737131929149" duration="1209000" />
+      <workItem from="1737131929149" duration="1401000" />
+      <workItem from="1738776992292" duration="6122000" />
+      <workItem from="1738855783284" duration="10000" />
+      <workItem from="1741957262689" duration="662000" />
+      <workItem from="1742220505746" duration="5000" />
+      <workItem from="1742221834799" duration="42000" />
+      <workItem from="1742221999890" duration="2000" />
+      <workItem from="1742314626976" duration="78000" />
+      <workItem from="1742314708837" duration="518000" />
+      <workItem from="1748968961816" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/kearls/Main.java</url>
+          <line>4</line>
+          <properties class="dev.kearls.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

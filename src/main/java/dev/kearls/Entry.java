@@ -7,6 +7,9 @@ public class Entry {
     @CsvBindByName(column = "Number")
     private Integer number;
 
+    @CsvBindByName(column = "Kevin Ready?")
+    private Boolean kevinReady;
+
     @CsvBindByName(column = "Continent")
     private String continent;
 
@@ -60,6 +63,14 @@ public class Entry {
 
     public void setNumber(Integer number) {
         this.number = number;
+    }
+
+    public Boolean getKevinReady() {
+        return kevinReady;
+    }
+
+    public void setKevinReady(Boolean kevinReady) {
+        this.kevinReady = kevinReady;
     }
 
     public String getContinent() {
@@ -119,6 +130,9 @@ public class Entry {
     }
 
     public Boolean getPicsUploaded() {
+        if (picsUploaded == null) {
+            return false;
+        }
         return picsUploaded;
     }
 
@@ -170,6 +184,7 @@ public class Entry {
     public String toString() {
         return "Entry{" +
                 "number=" + number +
+                ", kevinReady=" + kevinReady +
                 ", continent='" + continent + '\'' +
                 ", country='" + country + '\'' +
                 ", state='" + state + '\'' +
@@ -187,21 +202,4 @@ public class Entry {
                 ", notes='" + notes + '\'' +
                 '}';
     }
-//    @Override
-//    public String toString() {
-//        return "Entry{" +
-//                "number='" + number + '\'' +
-//                ", continent='" + continent + '\'' +
-//                ", country='" + country + '\'' +
-//                ", state='" + state + '\'' +
-//                ", location='" + location + '\'' +
-//                ", region='" + region + '\'' +
-//                ", hint='" + upFrontDescription + '\'' +
-//                ", climate='" + climate + '\'' +
-//                ", picsUploaded='" + picsUploaded + '\'' +
-//                ", pictures='" + pictures + '\'' +
-//                ", tbUrl='" + tbUrl + '\'' +
-//                ", notes='" + notes + '\'' +
-//                '}';
-//    }
 }
